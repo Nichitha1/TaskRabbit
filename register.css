@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    background-color: rgb(91, 88, 88);
+}
+.login-container{
+    width: 800px;
+    height: 600px;
+    background-color: transparent;
+    padding:  1%;
+    border-radius: 2%;
+    box-shadow: 2px 0 0 rgb(123, 123, 123);
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+}
+label {
+    display: block;
+    margin: 10px 0 5px 0;
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    border: 2px;
+    border-radius: 2%;
+    padding: 4px;
+}
+button{
+    width: 105px;
+    height: 32px;
+    border: 1px;
+    background-color: rgb(151, 134, 165);
+
+}
+button:hover{
+    background-color: rgb(235, 235, 235);
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
+@media screen and (min-width:350px) and (max-width:550px) {
+    .login-container{
+        width: 350px;
+        height: 450px;
+    }
+
+    
+}
+@media screen and (max-width : 350px)
+{
+    .login-container{
+        width: 150px;
+        height: 70px;
+    }
+}

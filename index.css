@@ -1,0 +1,36 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 500;
+}
+header nav{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* text-decoration: none; */
+    background-color: rgb(180, 179, 179);
+    align-self: center;
+    margin : 12% 3% 3% 29%;
+    height: 400px;
+}
+nav a {
+    border: 2px solid black;
+    border-radius: 2px 0 2px 0;
+    text-decoration: none;
+    width: 150px;
+    background-color: rgb(201, 202, 204);
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+    margin-left: 26%;
+}
+body{
+    background-color: rgb(81, 81, 81);
+}
+#user:hover{
+    background-color: aliceblue;
+}
+

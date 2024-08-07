@@ -1,0 +1,18 @@
+.task-todo{
+    display: flex;
+    justify-content: space-between;
+}
+#add-btn{
+    width: 100px;
+    height: 32px;
+    background-color: aquamarine;
+
+}
+.task,.date{
+    width: 500px;
+    height: 32px;
+    background-color: azure;
+}
+body{
+    background-color: rgb(62, 62, 62);
+}
